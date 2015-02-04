@@ -1,0 +1,1266 @@
+@charset "utf-8";
+/* Build by Techarays */
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+
+@font-face {
+  font-family: 'Trajan Pro';
+  src: url('../fonts/Trajan Pro Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+.logo img {
+max-width: 140px !important;
+height: auto !important;
+}
+body{
+	font-family: 'Lato', Helvetica, sans-serif;
+	background-image:url(../images/bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:#000;
+	text-align:center;
+	font-size:23px;
+	color:#fff;
+}
+#white_body{
+	background-color:#fff;
+	color:#000;
+	text-align:left;
+}
+
+/* ::::::::::::::::::::: whilte login area :::::::::::::::::::::::::::::::::: */
+
+
+.white_bg {
+width: 100%;
+height: 100%;
+background-color:rgba(255,255,255,.4);
+position: fixed;
+display:none;
+z-index: 1;
+}
+.close-button img {
+    max-width: 41px;
+    position: absolute;
+    right: -8px;
+    top: -12px;
+    cursor: pointer;
+}
+.gss-login
+{
+	display: none;
+}
+.login_box_fullscreen{
+	width:100%;
+	max-width: 750px;
+padding: 2%;
+	background-color:rgba(255,255,255,1);
+	margin:0 auto;
+	margin-top: 83px;
+	position: relative;
+}
+.form_holder_login{
+	width:100%;
+	float:left;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+#loginDiv{
+	background-color:#e7e7e7;
+height: 509px;
+padding: 10px;
+position: absolute;
+top: 55px;
+right: 5px;
+width: 320px;
+display: none;
+}
+#memberLoginDiv{
+	height:500px;position:absolute;width:320px;top:55px;display:none;
+}
+#venueLoginDiv{
+	height:500px;
+	position:absolute;
+	width:320px;
+	top: 55px;
+}
+#memberLoginButton{
+	max-width: 137px !important;
+padding: 13px 28px;
+font-size: 15px;
+letter-spacing: 1px;
+margin-left: 20px;
+}
+#venueLoginButton{
+	max-width: 137px !important;
+padding: 13px 28px;
+font-size: 15px;
+letter-spacing: 1px;
+margin-left: 20px;
+}
+.top_button_holder{
+	float:left;position:relative
+}
+#signupDiv{
+height: 858px;
+padding: 0;
+position: absolute;
+top: 58px;
+right: 5px;
+width: 340px;
+display: none;
+background-color: #E7E7E7;
+z-index: 1;
+}
+#memberSignupDiv{
+	background: #f00;
+	height: 800px;
+width: 340px;
+top: 55px;
+z-index: 1;
+}
+#venueSignupDiv{
+	height: 600px;
+width: 340px;
+top: 55px;
+z-index: 0;
+display:none;
+}
+input.top_input {
+color:#939595;
+width: 100%;
+margin: 5px 0;
+background-color: #dce0df;
+border: 0;
+padding: 10px 0;
+border-radius: 3px;
+outline: none;
+font-size: 23px;
+font-family: 'Lato';
+}
+.email_login {
+background-image: url(../images/email.png);
+background-repeat: no-repeat;
+background-position: 5px;
+text-indent: 45px;
+}
+.password_login {
+background-image: url(../images/password.png);
+background-repeat: no-repeat;
+background-position: 5px;
+text-indent: 45px;
+}
+.login_top_form {
+margin-left: 0 !important;
+margin-top: 6px !important;
+}
+
+.form_holder_login a .green_color {
+float: right;
+margin-top: 10px;
+font-size: 16px;
+}
+.facebook_login {
+display: block;
+color: #fff;
+background-color: #4a6ea9;
+padding: 10px 0;
+margin: 22px auto;
+}
+.or {
+width: 100%;
+}
+.link_top {
+float: left;
+margin-top: 5px;
+font-size: 16px;
+}
+
+/* ::::::::::::::::::::: whilte login area ends :::::::::::::::::::::::::::::::::: */
+
+.img_responsive{
+	max-width:100%;
+}
+a{
+	text-decoration:none;
+	-webkit-transition: background-color .3s ease;
+-moz-transition: background-color .3s ease;
+-ms-transition: background-color .3s ease;
+transition: background-color .3s ease;
+}
+::selection{
+	background-color:#61b091;
+	color:#fff;
+}
+::-moz-selection{
+	background-color:#61b091;
+	color:#fff;
+}
+
+.clear{
+	clear:both;
+}
+span.green_color{
+	color:#61b091;
+}
+.wrapper{
+	max-width:1350px;
+	margin:0 auto;
+	float:none;
+}
+#header{
+	padding:30px 0;
+	background-image:url(../images/main_pic.jpg);
+	background-size:cover;
+}
+.logo{
+	float:left;
+}
+.top_navigation{
+	font-size:23px;
+}
+.top_navigation a{
+	float:left;
+	padding:15px;
+	color:rgba(255,255,255,1);
+}
+.top_navigation a:hover{
+	background-color:#61b091;
+}
+.top_right {
+float: right;
+width: 65%;
+}
+nav.top_navigation li {
+float: left;
+}
+button.settings {
+	outline: none;
+float: left;
+margin: 0 5px;
+	border:0;
+padding: 13px 45px;
+font-size: 23px;
+color:#fff;
+cursor:pointer;
+-webkit-transition: background-color .3s ease;
+-moz-transition: background-color .3s ease;
+-ms-transition: background-color .3s ease;
+transition: background-color .3s ease;
+}
+.login_top{
+	background-color:#61b091;
+
+}
+.login_top:hover{
+	background-color:#4AAFC1;
+
+}
+.signup_top{
+	background-color:#4AAFC1;
+
+}
+.signup_top:hover{
+	
+	
+	background-color:#61b091;
+
+}
+.no_float{
+	float:none !important;
+}
+.main_top{
+	padding: 6em 0;
+	text-align:center;
+}
+.main_top h1{
+	font-size:48px;
+	font-family: 'Trajan Pro';
+}
+.main_top p {
+word-spacing: 5px;
+font-size: 26px;
+}
+#three_boxes {
+width: 100%;
+border: 7px solid #f3f2f5;
+float: left;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+background-color: #f3f2f5;
+}
+.three_one {
+min-height: 400px;
+}
+.centre_box{
+	border:4px solid #f3f2f5;
+	border-top:0;
+	border-bottom:0;
+	background-image:url(../images/box3.png);
+	background-size:cover;
+}
+.one_box{
+	background-image:url(../images/box2.png);
+	background-size:cover;
+}
+.last_box{
+	background-image:url(../images/box1.jpg);
+	background-size:cover;
+}
+.one_box p {
+padding-top: 23%;
+}
+.centre_box p {
+padding-top: 38%;
+}
+.last_box p {
+padding-top: 33%;
+}
+.footer_logo {
+max-width: 88px;
+height: auto !important;
+margin-top: 20px;
+}
+#restaurant_sign_up{
+	background-image:url(../images/glass_02.jpg);
+	background-size:cover;
+	padding:120px 0;
+	width:100%;
+	text-align:left;
+	float: left;
+}
+#restaurant_sign_up h1{
+	font-size:40px;
+}
+#restaurant_sign_up p{
+	font-size:20px;
+}
+footer#footer {
+float: left;
+padding-top: 20px;
+width: 100%;
+background-color: #333848;
+background-image:url(../images/footer_bg.jpg);
+background-repeat:repeat;
+}
+.footer_about{
+font-size: 18px;
+}
+input.email_footer {
+width: 71% !important;
+height: 45px;
+border-radius: 5px 0 0 5px;
+-webkit-border-radius: 5px 0 0 5px;
+-moz-border-radius: 5px 0 0 5px;
+border: 0;
+padding-left: 0px;
+font-size: 16px;
+color: #777;
+outline: none;
+text-align: left;
+text-indent: 12px;
+float: left;
+}
+input.footer_submit {
+background-color: #61b091;
+height: 45px;
+width: 29%;
+border: 0;
+font-size: 15px;
+color: #fff;
+border-radius: 0px 5px 5px 0;
+-webkit-border-radius: 0px 5px 5px 0;
+-moz-border-radius: 0px 5px 5px 0;
+cursor: pointer;
+text-align: center;
+outline: none;
+float: left;
+}
+.footer_right{
+	font-size:15px;
+}
+
+.footer_links h6 {
+font-weight: bold;
+font-size: 18px;
+}
+.footer_links li{
+	background-image: url(../images/dot.png);
+background-repeat: no-repeat;
+padding-left: 15px;
+margin-left: 8px;
+margin-top: 8px;
+background-position: 0px 4px;
+}
+.footer_links li a{
+	color:#fff;
+}
+.footer_links li a:hover{
+	color:#61B091;
+}
+.footer_links {
+margin-top: 30px;
+}
+.join_us{
+	width:auto;
+	max-width:118px;
+	margin:0 auto;
+	float:none;
+	padding-bottom: 26px;
+}
+.join_us h6{
+	font-size:15px;
+	font-weight: bold;
+}
+.join_us img {
+margin: 5px;
+margin-top: 15px;
+}
+.copyright{
+	background-color:rgba(0,0,0,1);
+	text-align:left;
+	padding: 20px 0;
+	font-size: 15px;
+
+}
+
+/*:::::::::::::::::::::::::::::Nitish rules starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+.back_fff{
+background-color:#e7e7e7;
+width:100%;
+max-width: 291px;
+height:auto;
+}
+.back_fff .login_box_fullscreen{
+	background-color:transparent !important;
+	margin-top: 0;
+}
+.form_holder_signup{
+	width:100%;
+	float:left;
+}
+#textarea_form{
+width:100%;
+min-height:150px;
+color: #939595;
+margin: 5px 0;
+background-color: #cdcbcb;
+border: 0;
+padding:10px 0;
+border-radius: 3px;
+outline: none;
+font-size: 18px;
+font-family: 'Lato';
+}
+input.sign_input {
+color:#939595;
+width: 100%;
+margin: 5px 0;
+background-color: #cdcbcb;
+border: 0;
+padding: 10px 0;
+border-radius: 3px;
+outline: none;
+font-size: 18px;
+font-family: 'Lato';
+background-repeat: no-repeat;
+background-position: 5px;
+text-indent: 45px;
+}
+
+
+.business_name {
+background-image: url(../images/business.png);
+
+}
+.address_form {
+background-image: url(../images/address.png);
+}
+.telephone_num{
+background-image: url(../images/tele_num.png);
+}
+.mobile_number{
+background-image: url(../images/mob_num.png);
+}
+.email_reg_form{
+background-image: url(../images/descript.png);
+}
+
+.description{
+background-image: url(../images/descript.png);
+background-position: top 7px left;
+background-repeat: no-repeat;
+text-indent: 45px;
+}
+
+.signup_top:hover{
+	background-color:#61b091;
+
+}
+.signup_top_form {
+margin: 0 auto !important;
+/*margin-top: 6px !important;*/
+}
+
+
+
+button.setting1 {
+/*float: left;*/
+margin: 0 auto;
+	border:0;
+padding: 13px 45px;
+font-size: 20px;
+color:#fff;
+cursor:pointer;
+-webkit-transition: background-color .3s ease;
+-moz-transition: background-color .3s ease;
+-ms-transition: background-color .3s ease;
+transition: background-color .3s ease;
+}
+.button_option{
+color:#454545;
+font-size:16px;
+width:80%;
+margin:10px auto;
+}
+.option2{
+color:#454545;
+font-size:16px;
+}
+.form_text{
+color:#454545;
+}
+.facebook_member_login {
+display: block;
+color: #fff;
+background-color: #4a6ea9;
+padding: 15px 0;
+margin: 22px auto;
+font-size:15px;
+/*text-indent:35px;*/
+background-image: url(../images/face.png);
+background-repeat: no-repeat;
+background-position: 10px;
+}
+
+
+.twitter_member_login {
+display: block;
+color: #fff;
+background-color: #28aae1;
+padding: 15px 0;
+margin: 22px auto;
+font-size:15px;
+/*text-indent:15px;*/
+background-image: url(../images/twit.png);
+background-repeat: no-repeat;
+background-position: 10px;
+}
+.signup_box_memberscreen {
+width: 100%;
+max-width: 300px;
+margin: 0 auto;
+}
+#memberSignupDiv .login_box_fullscreen {
+width: 100%;
+max-width: 308px;
+}
+
+#memberSignupDiv .back_fff {
+max-width: 100%;
+}
+#venueSignupDiv .back_fff {
+max-width: 100%;
+}
+#venueSignupDiv .login_box_fullscreen {
+width: 100%;
+max-width: 308px;
+}
+
+#venueSignupDiv button#venueSignupButton {
+font-size: 19px !important;
+}
+
+/*:::::::::::::::::::::::::::::Nitish rules ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.active_tab_form{
+background-color:#007849;
+}
+
+
+
+
+
+
+
+
+/*::::::::::::::::::::::::::::: ompty pass rules starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+#header_ompty_pass{
+	background-color:#eaeaea;
+	padding:15px 0;
+	border-top:30px solid #61b091;
+	text-align:center;
+}
+#pass_heading_holder {
+text-align: right;
+}
+#pass_with_code {
+padding: 30px 0;
+border-bottom: 1px solid #61b091;
+}
+#pass_details {
+padding: 25px 0;
+border-bottom: 1px solid #61b091;
+}
+#pass_print{
+	padding: 25px 0;
+}
+.font_nineteen{
+	font-size: 19px;
+}
+#pass_works{
+	padding: 0px 0px 25px 0;
+}
+.pass_container_main {
+margin: 20px auto;
+box-shadow: rgb(221, 221, 221) -1px -13px 43px 6px;
+}
+/*::::::::::::::::::::::::::::: ompty pass rules ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+
+/*::::::::::::::::::::::::::::: Registration rules Starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#header_registration{
+	padding:30px 0;
+	background-image:url(../images/registration_header.jpg);
+	background-size:cover;
+}
+
+#registration_container{
+width: 100%;
+background-color: rgba(255, 255, 255, .83);
+}
+
+.registration_container_login {
+width: 100%;
+padding: 5%;
+margin: 0 auto;
+color: #000;
+}
+.facebook_member_login_reg {
+display: block;
+color: #fff;
+background-color: #4a6ea9;
+padding: 15px 0;
+margin: 0px auto 22px auto;
+font-size: 15px;
+background-image: url(../images/face.png);
+background-repeat: no-repeat;
+background-position: 10px;
+}
+.custom_topheading {
+background-color: #61B091;
+padding: 10px 0;
+margin-top: 10px;
+}
+.registration_text_settler {
+padding-top: 19%;
+}
+/*::::::::::::::::::::::::::::: Registration rules ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*::::::::::::::::::::::::::::: About Us Rules Start :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+#header_about_us{
+	padding:30px 0;
+	background-image:url(../images/for_all_pg.jpg);
+	background-size:cover;
+}
+
+.about_container{
+	text-align:left;
+}
+.white_color{
+	color:#fff;
+}
+.scroll_data_div {
+background-color: #fff;
+color: #000;
+width: 100%;
+height: 420px;
+font-size: 14px;
+padding: 15px;
+letter-spacing: 1px;
+border: 2px solid #929292;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+overflow: hidden;
+overflow-y: scroll;
+}
+
+#how_it_works{
+	background-color:#fff;
+	color:#000;
+	text-align:center;
+	padding: 25px 0;
+	font-size:14px;
+}
+.works_img_holder {
+margin: 10px 0;
+}
+.img_rotation {
+-webkit-transition: all 500ms ease-in;
+-moz-transition: all 500ms ease-in;
+-o-transition: all 500ms ease-in;
+-ms-transition: all 500ms ease-in;
+transition: all 500ms ease-in;
+}
+
+.img_rotation:hover {
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+cursor: pointer;
+}
+#contact_us{
+	padding:30px 0;
+	background-image:url(../images/contact_us.jpg);
+	text-align:left;
+	background-size:cover;
+}
+.contact_box_style {
+margin: 8px 0;
+padding-left: 10px;
+width: 94%;
+color: #fff;
+background-color: #575555;
+border: 0;
+font-size: 16px;
+height: 48px;
+outline: none;
+}
+.contact_send_settings {
+margin-left: 0px !important;
+margin-top: 9px !important;
+}
+textarea.contact_box_style {
+min-height: 260px;
+width: 100%;
+}
+.textarea_send_settings {
+float: right !important;
+}
+#learn_more{
+	padding:30px 0;
+	font-size:14px;
+	text-align:left;
+	background-image:url(../images/learnmore_bg.jpg);
+	background-repeat:repeat;
+}
+/*::::::::::::::::::::::::::::: About Us Rules Start :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+/*::::::::::::::::::::::::::::: Member Dashboard Rules Start :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+#member_dashboard{
+	width:100%;
+}
+#member_dashboard_left {
+background-color: #61b091;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+}
+#member_dashboard_right {
+top: 0;
+bottom: 0;
+position: absolute;
+left:0;
+}
+.member_pic {
+width: 126px;
+height: 126px;
+margin: 0 auto;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+overflow: hidden;
+}
+#top_left_heading{
+	color:#fff;
+	font-size:17px;
+}
+#top_left_menu {
+vertical-align: middle;
+margin-top: 5px;
+}
+#top_left_menu a {
+float: right;
+display: block;
+padding: 5px;
+}
+#member_details {
+color: #fff;
+margin-top: 24%;
+width: 100%;
+float: left;
+}
+.member_data {
+word-wrap: break-word;
+}
+#member_details h4{
+font-style: italic;
+word-break: break-word;
+color: #e9e6e6;
+letter-spacing: 1px;
+line-height: 1.5;
+}
+
+#nav_settler {
+float: left;
+width: 100%;
+margin-top: 15%;
+}
+
+#nav_settler a {
+color: #fff;
+font-size: 17px;
+letter-spacing: 1px;
+border-bottom: 1px solid #7cbda4;
+}
+#nav_settler a:hover{
+	color:#61b091;
+	background-color:#fff;
+}
+#nav_settler a:focus{
+	color:#61b091;
+	background-color:#fff;
+}
+#nav_settler a:active{
+	color:#61b091;
+	background-color:#fff;
+}
+.actual_data_member {
+padding: 15px;
+margin-top: 15px;
+border: 1px solid #ddd;
+width: 100%;
+position: relative;
+height: 96%;
+overflow: hidden;
+overflow-y: scroll;
+word-break: break-word;
+}
+.pass_primary_heading {
+border-color: #ddd !important;
+}
+.pass_primary_heading > .panel-heading {
+color: #fff;
+background-color: #61b091;
+border-color: #61b091;
+}
+#custom_green_color {
+color: #fff;
+background-color: #61b091;
+border-color: #61b091;
+}
+.active_member_dashboard a{
+	color:#61b091 !important;
+	background-color:#fff;
+}
+.active_venu_dashboard a {
+color: #45adca !important;
+background-color: #fff;
+}
+/*:::::::::::::::::::::::::::::  Member Dashboard Rules Ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::::::::::  Venue Dashboard Rules Starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+#venu_dashboard_left {
+background-color: #45adca;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+}
+#venu_dashboard_left #nav_settler a {
+border-bottom: 1px solid #7dc6da;
+}
+#venu_dashboard_left #member_details {
+color: #fff;
+margin-top: 5%;
+width: 100%;
+float: left;
+}
+.purchase_table_setting {
+min-width: 224px;
+}
+#venu_dashboard_left #nav_settler {
+float: left;
+width: 100%;
+margin-top: 5%;
+}
+#venu_dashboard_left #nav_settler a:hover{
+	color:#45adca;
+	background-color:#fff;
+}
+#venu_dashboard_left #nav_settler a:focus{
+	color:#45adca;
+	background-color:#fff;
+}
+#venu_dashboard_left #nav_settler a:active{
+	color:#45adca;
+	background-color:#fff;
+}
+.venu_data_actual {
+padding: 15px;
+margin-top: 15px;
+border: 1px solid #ddd;
+width: 100%;
+position: relative;
+height: 96%;
+overflow: hidden;
+overflow-y: scroll;
+word-break: break-word;
+}
+#venu_dashboard_right {
+top: 0;
+bottom: 0;
+position: absolute;
+left: 0;
+}
+/*:::::::::::::::::::::::::::::  Venue Dashboard Rules Ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*:::::::::::::::::::::::::::::  Venue Dashboard table create offers starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+.table_description_setting{
+	width: 200px !important;
+	display: -moz-deck;
+display: -webkit-box;
+}
+.table_offer_setting{
+max-width: 100px; word-wrap: break-word;
+}
+.table_sr_setting{
+	width: 35px; word-wrap: break-word; 
+}
+.btn-black {
+color: #fff;
+background-color: #000;
+border-color: #000;
+}
+
+.btn-black:hover {
+color: #000;
+background-color: #fff;
+border-color: #000;
+}
+.btn-black:focus {
+color: #fff !important;
+background-color: #000;
+}
+.btn-black:active {
+color: #fff !important;
+background-color: #000;
+}
+.table_left_border {
+border-left: 1px solid #ddd;
+}
+.padding_none{
+	padding:0;
+}
+
+
+.border_bottom_table{
+border-bottom: 1px solid #ddd;
+}
+.create_own_offer_setting {
+margin-top: 20px;
+border-top: 1px solid #ddd;
+}
+.no_indent{
+	text-indent:5px !important;
+	margin: 2px 0 !important;
+	
+}
+textarea.create_offer_box {
+min-height: 83px;
+}
+#custom_blue_color {
+color: #fff;
+background-color: #45ADCA;
+border-color: #45ADCA;
+margin-top: 5px;
+}
+/*:::::::::::::::::::::::::::::  Venue Dashboard table create offers Ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+
+/*:::::::::::::::::::::::::::::  Menu Drop Box Starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.top_dropdown a{
+	float:none !important;
+	color:#000;
+	border-bottom:1px solid #ddd;
+}
+.top_dropdown li:last-child a{
+	border-bottom:none;
+}
+#top_left_menu .panel-heading {
+background-color: #fff;
+}
+#top_left_menu .panel-footer {
+background-color: #fff;
+}
+#top_left_menu .panel-body{
+	padding:15px 0px 0 0; 
+}
+a.small_link {
+float: none !important;
+font-size: 8px;
+display: inline !important;
+padding: 0 !important;
+color: #000;
+}
+.menu_drop_down {
+min-height: 250px;
+position: absolute;
+display: none;
+z-index: 100;
+margin-top: 30px;
+background: #fff;
+width: 200px;
+right: 20px;
+}
+
+#top_left_menu .panel {
+margin-bottom: 0px;
+}
+
+/*:::::::::::::::::::::::::::::  Menu Drop Box Ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+.blue_color_text{
+	color:#45adca;
+}
+
+/*:::::::::::::::::::::::::::::  My Profile Starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+.my_profile_main_holder{
+	max-width:350px;
+	margin:0 auto;
+}
+.grey_color{
+	color:#5d5d5d;
+}
+.profile_side{
+	margin-top:12%;
+}
+.font_size_twenty_one{
+	
+	font-size:21px;
+}
+.text_normal{
+	font-weight:normal;
+}
+.edit_profile_textbox {
+background-color: #bfbfbf !important;
+}
+.edit_profile_textbox:focus {
+outline: none !important;
+}
+/*:::::::::::::::::::::::::::::  My Profile Ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::::::::::  Create Offers starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.create_offer_box {
+width: 100%;
+line-height: 24px;
+height: 38px;
+background-color: #e5e5e5;
+border: 1px solid #afafaf;
+text-indent: 34px;
+margin: 10px 0;
+outline:none !important;
+background-repeat: no-repeat;
+background-position: 4px;
+}
+
+.float_right{
+	float:right !important;
+}
+
+.processing_text_settings{
+	font-size:17px;
+	color:#5d5d5d;
+	letter-spacing:1px;
+	font-style:italic;
+	margin-top:50px;
+}
+.top_margin{
+	margin-top:20px;
+}
+
+.top_margin_zero{
+	margin-top:0px !important;
+}
+
+.calendar_box{
+	background-image:url(../images/calendar.png);
+}
+.clock_box{
+	background-image:url(../images/clock.png);
+}
+.location_box{
+	background-image:url(../images/location.png);
+}
+.pax_box{
+	background-image:url(../images/pax.png);
+}
+
+.price_tag_box{
+	background-image:url(../images/price_tag.png);
+}
+
+
+.offer_text_setting {
+text-align: center;
+letter-spacing: 1px;
+line-height: 24px;
+margin-top: 15px;
+}
+.create_offer_pannel {
+border: 1px solid #ddd !important;
+}
+.create_offer_pannel h4{
+	font-size:14px;
+	font-style:normal;
+}
+.create_offer_text_setting {
+font-size: 13px;
+font-style: italic;
+}
+.create_offer_pannel .panel-heading {
+	padding: 5px 5px 0 5px;
+}
+.create_offer_pannel .panel-heading img {
+	width:100%;
+}
+.create_offer_pannel .panel-body {
+	padding: 0px 5px 5px 5px;
+}
+.create_offer_pannel .btn {
+width: 100%;
+}
+.hotel_name{
+	font-size:12px !important;
+	font-weight:600;
+	margin: 8px 0;
+}
+.font_seventeen{
+	font-size:17px;
+	}
+.font_italic{
+	font-style:italic;
+}
+.letter_spacing{
+	letter-spacing:.05em;
+}
+.width_150{
+	width:150px;
+}
+
+.offer_description {
+padding: 5px;
+color: #19100b;
+width: 100%;
+border: 1px solid #ddd;
+margin-top: 20px;
+max-height: 350px;
+overflow-y: scroll;
+}
+.slider_offers_related {
+width: 100%;
+height: 290px;
+overflow: hidden;
+}
+
+.slider_offers_related img{
+	width:100%;
+	height:100%;
+}
+.offer_small_images {
+margin-top: 30px;
+}
+.img_fullwidth{
+	width:100% !important;
+}
+
+
+#member_dashboard_right .pass_container_main {
+padding: 0 14px;
+box-shadow: none;
+margin: 0px auto;
+}
+/*:::::::::::::::::::::::::::::  Create Offers ends :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*:::::::::::::::::::::::::::::  adress of venu profile starts :::::::::::::::::::::::::::::::::::::::::::::::*/
+
+address.venu_address {
+font-size: 15px;
+color: #343434;
+}
+
+.venu_profile_hotel_pic {
+max-width: 235px;
+margin: 12px 15px 15px 0px;
+}
+.hotel_description {
+font-size: 14px;
+}
+.category_tags {
+border: 1px solid #999696;
+padding: 5px 5px 0 5px;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+}
+.user_detail_table > tr > td{
+	border:0px !important;
+}
+.user_detail_edit_button {
+margin-top: 50px;
+margin-bottom:10px !important;
+}
+.btn-edit {
+color: #000;
+background-color: #fff;
+border-color: #000 !important;
+margin-top: 5px;
+padding: 6px 30px !important;
+display: block !important;
+}
+.btn-edit:hover {
+color: #fff !important;
+background-color: #000;
+border-color: #000;
+margin-top: 5px;
+}
+/*:::::::::::::::::::::::::::::  adress of venu profile ends :::::::::::::::::::::::::::::::::::::::::::::::*/
